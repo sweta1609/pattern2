@@ -1,0 +1,21 @@
+n = int (input())
+i = 1
+while i<= n:
+    spaces = 1
+    while  spaces <= n-i:
+        print (' ',end="")
+        spaces = spaces + 1
+    p = 1+i-1
+    j = 1
+    while j<=i:
+        print(p,end="")
+        j = j + 1
+        p = p + 1 
+    p = i - 1 
+    k = (2*i)-2
+    while p>=1:
+        print(k,end="")
+        p = p - 1
+        k = k - 1
+    print()
+    i = i + 1
